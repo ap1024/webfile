@@ -1,0 +1,87 @@
+﻿.jy_news{grid-template-columns: 1fr 1fr 1fr;display: grid;grid-gap: 30px;}
+.news_detail{flex: 0 0 75%;max-width: 75%;padding-right: 60px;}
+.news_detail .block-1 p img{max-width: 100%;}
+.news_title{margin:20px 0; padding-bottom:10px;}
+.news_title h2{color:#1a52a8;}
+
+.right_wrap{flex: 0 0 25%;max-width: 25%;}
+.widget h4.widget-title {
+    margin: 30px 0 43px;
+	color: #1a52a8;
+}
+.widget h4.widget-title::after {
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    content: "";
+    left: 0;
+    background: linear-gradient(to right, rgb(42, 22, 155) 10%, rgb(41, 137, 216) 50%, rgb(44, 212, 217) 95%);
+    bottom: -9px;
+}
+.widget-categories ul li a:hover{color:#1a52a8;}
+.widget-categories ul li a > i {
+    font-size: 12px;
+    padding-right: 9px;
+}
+.widget-categories ul li a span.cat-number {
+    float: right;
+    position: relative;
+}
+.widget-categories ul li a span.cat-number::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #e8e8e8;
+    left: -62px;
+    bottom: 7px;
+}
+.fa-dot-circle:before {
+    content: "\f192";
+}
+.widget ul li a {
+    padding-bottom: 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;list-style-type: none;
+}
+.widget-categories ul li{
+     margin-bottom:10px;}
+.blog-sidebar-color, .widget ul li a, .widget-categories ul li a, .widget-recent-posts ul li a p {
+    color: #4f535b;}
+.widget ul li a img{max-width: 100px; max-height: 100px; display: inline-block;}
+.widget ul li a img {
+    width: 33%;}
+.widget-recent-posts ul li a p {
+    line-height: 21px;
+    padding-left: 10px;
+    width: 67%;
+}
+.widget-recent-posts ul li a p > span {
+    display: block;
+    padding-top: 10px;
+    color: #949aa7;
+}
+.service-one__single:hover {
+	box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.1);
+	cursor:pointer;
+}
+
+
+.swiper-dis{display: flex;}
+@media (max-width: 992px){
+    .new_detail{max-width: 100%; flex: none; padding: 0;}
+    .right_wrap{flex:0 0 100%; max-width: 100%;}
+    .swiper-dis{display: block;}
+    .news_detail {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0px;
+    }
+}
+
+
+
+
+
